@@ -1,0 +1,60 @@
+syntax: glob
+# This line is a comment, and will be skipped.
+# Empty lines are skipped too.
+
+bin
+obj
+
+Bin
+ClientBin
+Build
+.svn
+
+TestResults
+
+# Backup files left behind by the Emacs editor.
+*~
+
+# Subversion
+*.mine
+
+# Backup files and log
+*.orig
+*.log
+
+# WiX heat file
+Stage.wxs
+
+# Lock files used by the Emacs editor.
+# Notice that the "#" character is quoted with a backslash.
+# This prevents it from being interpreted as starting a comment.
+.\#*
+
+# Visual Studio
+*.suo
+*.csproj.user
+*.sln.cache
+*.vspscc
+*.vssscc
+
+# ReSharper
+_ReSharper.*
+Source/_ReSharper.*
+*.resharper.user
+*.ReSharper.user
+*.DotSettings.user
+
+# StyleCop
+Settings.StyleCop
+StyleCop.Cache
+
+# Tests
+Source/TestResults
+
+BuildProcessTemplates
+
+# Sandcastle
+# Help/
+*.shfbproj_*
+*.chw
+*.chm
